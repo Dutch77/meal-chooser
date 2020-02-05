@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+  ],
+  "files": [
+    "./vue-shims.d.ts"
+  ]
+}
+
